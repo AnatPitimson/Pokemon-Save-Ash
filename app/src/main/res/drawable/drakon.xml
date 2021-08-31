@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/enemy1" android:duration="150"/>
+    <item android:drawable="@drawable/enemy2" android:duration="150"/>
+    <item android:drawable="@drawable/enemy3" android:duration="150"/>
+    <item android:drawable="@drawable/enemy4" android:duration="150"/>
+    <item android:drawable="@drawable/enemy5" android:duration="150"/>
+    <item android:drawable="@drawable/enemy6" android:duration="150"/>
+    <item android:drawable="@drawable/enemy7" android:duration="150"/>
+    <item android:drawable="@drawable/enemy8" android:duration="150"/>
+    <item android:drawable="@drawable/enemy9" android:duration="150"/>
+    <item android:drawable="@drawable/enemy10" android:duration="150"/>
+    <item android:drawable="@drawable/enemy11" android:duration="150"/>
+    <item android:drawable="@drawable/enemy12" android:duration="150"/>
+
+</animation-list>
+
+

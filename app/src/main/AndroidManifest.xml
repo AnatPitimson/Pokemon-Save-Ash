@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gamega">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu"
+            android:label="Menu"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".Win"
+            android:label="Win"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+
+        <activity android:name=".GameOver"
+            android:label="Game_Over"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".ScoreBoard"
+            android:label="ScoreBoard"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".LevelsPath"
+            android:label="Levels_Path"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".Game"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".OurStory"
+            android:label="Our Story"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".Store"
+            android:label="Store"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+
+    </application>
+
+</manifest>

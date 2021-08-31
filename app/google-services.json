@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817951878630",
+    "project_id": "gamega-85939",
+    "storage_bucket": "gamega-85939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817951878630:android:e5d8d9fdb957fecb7a3a27",
+        "android_client_info": {
+          "package_name": "com.example.gamega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817951878630-56ifgim714sf5t2oab88dnl2er93qkmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvrvikIMsZnVBabWTz0RP67h1n4lDalCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817951878630-56ifgim714sf5t2oab88dnl2er93qkmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

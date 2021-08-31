@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="37dp">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/black"
+        android:src="@drawable/game_over_logo"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textSize="40sp">
+    </ImageView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="17dp"
+        android:padding="20dp"
+        android:src="@drawable/loser">
+    </pl.droidsonroids.gif.GifImageView>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_game_over"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/font_text"
+        android:layout_marginTop="37dp"
+        android:textSize="25sp"
+        android:id="@+id/scoreLabelText">
+    </TextView>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/font_text"
+        android:text="0"
+        android:textSize="25sp"></TextView>
+
+</LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/font_text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:hint="@string/UserName" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Games_Played"
+            android:fontFamily="@font/font_text"
+            android:textSize="20sp"
+            android:id="@+id/gamesPlayedLabelText">
+        </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_text"
+        android:text="0"
+        android:textSize="25sp"
+        android:id="@+id/games_played">
+    </TextView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/okBtn"
+        android:textAllCaps="false"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/font_text"
+        android:textSize="25dp"
+        android:background="@drawable/menu_buttons"
+        android:text="@string/ok">
+    </Button>
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

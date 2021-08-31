@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameGA</string>
+    <string name="Start">התחל</string>
+    <string name="Instructions">הוראות</string>
+    <string name="ReturningPlayer">שחקן חוזר</string>
+    <string name="NewPlayer">שחקן חדש</string>
+    <string name="UserName">אנא הכנס שם משתמש</string>
+    <string name="Email">אימייל</string>
+    <string name="Password">סיסמה</string>
+    <string name="VerifyPassword">אימות סיסמה</string>
+    <string name="Enter">כניסה</string>
+    <string name="tap_to_start">לחץ לחיצה ארוכה כדי שפיקי יעוף, היזהר מאויביו, הם מחזיקים את אש!</string>
+    <string name="score">טבלת שיאים</string>
+    <string name="Our_Story">הסיפור שלנו</string>
+    <string name="GAME_OVER">המשחק נגמר</string>
+    <string name="Shop">חנות</string>
+    <string name="LOCKED">נעול</string>
+    <string name="win_text">עברת את המשחק, אש גאה בך !</string>
+    <string name="Back">חזור</string>
+    <string name="score_game_over">ניקוד :</string>
+    <string name="Games_Played">משחקים ששוחקו :</string>
+    <string name="Name">אנא הכנס שם משתמש</string>
+    <string name="ok">אוקיי</string>
+    <string name="mission_accepted">המשימה התקבלה</string>
+    <string name="not_enough_coins">אין מספיק מטבעות</string>
+    <string name="money_bag_info">בקניית מוצר זה תקבל/י עשר שניות במהירות איטית ללא האויבים רק את/ה המטבעות והברקים</string>
+    <string name="part_one_story">היו היה פוקימון מקסים ושמו פיקאצ\'ו. לפיקאצ\'ו היה חבר טוב ושמו אש, שחולם להיות מאמן הפוקימונים הגדול בכל הזמנים.</string>
+    <string name="part_two_story">לפני כמה שעות, גילו פיקאצ\'ו וחבריו שאש לא נמצא בביתו, לאחר חיפושים בלתי פוסקים הם גילו שחטפו את אש.</string>
+    <string name="part_three_story">פיקאצ\'ו וחבריו עשו הכל על מנת להבין היכן אש ומי חטף אותו. ואז גילו שמודבר בלא אחר מהחבורה הנבזית טוטו, הדרקון והראש ברצפה</string>
+    <string name="part_four_story">אז מהר, צאו לדרך ! היזהרו מהאוייבים והצילו את אש!</string>
+    <string name="back_to_game">חזרה למשחק</string>
+    <string name="one_more_live">בקניית מוצר זה ייתווסף פוקדור נוסף (חיים נוספים)</string>
+    <string name="buy">קנה</string>
+    <string name="Terasure_box_text">בקניית מוצר זה תוכל לעבור שלב אחד</string>
+    <string name="Paused">הפסקה</string>
+    <string name="Great_Job">כל הכבוד</string>
+    <string name="Please_Enter_Name">אנא הקלד שם משתמש</string>
+</resources>

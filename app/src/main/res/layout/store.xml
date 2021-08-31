@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/shop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_coins"
+        android:text="0"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="173dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/tv_coins"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="6dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/coin1">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:id="@+id/shop2"
+            android:background="@color/lightBrightB"
+            android:layout_margin="10dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mon1">
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:src="@drawable/mon2">
+            </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/unlock2"
+            android:background="@color/lightBright"
+            android:layout_margin="4dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/LOCKED">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/price4"
+                android:text="1000">
+            </TextView>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_toRightOf="@+id/price4"
+                android:src="@drawable/coin"
+                android:layout_margin="4dp"
+                android:layout_alignParentBottom="true">
+            </ImageView>
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/lightBrightB"
+            android:id="@+id/shop1"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hourglass_gif">
+            </ImageView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/unlock1"
+                android:background="@color/lightBright"
+                android:layout_margin="4dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/LOCKED">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/price1"
+                    android:text="250">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_toRightOf="@+id/price1"
+                    android:src="@drawable/coin"
+                    android:layout_margin="4dp"
+                    android:layout_alignParentBottom="true">
+                </ImageView>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightBrightB"
+                android:id="@+id/shop4"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/close"
+                    android:src="@drawable/win1">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/open"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:src="@drawable/win2">
+                </ImageView>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/unlock4"
+                    android:background="@color/lightBright"
+                    android:layout_margin="4dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/LOCKED">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:id="@+id/price3"
+                        android:text="5000">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_toRightOf="@+id/price3"
+                        android:src="@drawable/coin"
+                        android:layout_margin="4dp"
+                        android:layout_alignParentBottom="true">
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightBrightB"
+                android:id="@+id/shop3"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ball_">
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/lightBright"
+                    android:id="@+id/unlock3"
+                    android:layout_margin="4dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/LOCKED">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:id="@+id/price2"
+                        android:text="2500">
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_toRightOf="@+id/price2"
+                        android:src="@drawable/coin"
+                        android:layout_margin="4dp"
+                        android:layout_alignParentBottom="true">
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:background="@null"
+        android:scaleType="fitXY"
+    android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/backBtn">
+    </ImageButton>
+
+
+</RelativeLayout>

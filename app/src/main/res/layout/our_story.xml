@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightBrightB"
+        android:id="@+id/btnsLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/our_story_pic">
+    </ImageView>
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:fontFamily="@font/font4"
+        android:text="@string/part_one_story">
+    </TextView>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pikiandash">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/font4"
+        android:text="@string/part_two_story">
+    </TextView>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ash_story">
+    </ImageView>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/font4"
+        android:text="@string/part_three_story">
+    </TextView>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/jail">
+    </ImageView>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            android:gravity="center"
+            android:fontFamily="@font/font4"
+            android:text="@string/part_four_story">
+        </TextView>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:id="@+id/backBtn"
+            android:background="@drawable/menu_buttons"
+            android:text="@string/mission_accepted"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="@font/font4">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
